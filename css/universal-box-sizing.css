@@ -1,0 +1,4 @@
+/* Setting box-sizing: border-box universally across webpage */
+*, *::before, *::after {
+    box-sizing: border-box;
+}

@@ -1,0 +1,1 @@
+const elementsWithText = Array.from(document.querySelectorAll('*')).filter(el => el.textContent.trim() !== '');

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <style>
+    .table-div {
+      overflow-x: auto;
+    }
+
+    table,
+    td,
+    table th {
+      border-left: medium solid black;
+      border-right: medium solid black;
+      border-bottom: thin solid black;
+      vertical-align: top;
+      padding: 0.2em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="table-div">
+    <table>
+      <thead>
+        <tr>
+          <th> Keyword
+          </th>
+          <th> State
+          </th>
+          <th> Data type
+          </th>
+          <th> Control type
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-hidden-keyword"
+              data-dfn-type="attr-value"><code>hidden</code></dfn>
+          </td>
+          <td> <a href="#hidden-state-(type=hidden)" id="the-input-element:hidden-state-(type=hidden)-6">Hidden</a>
+          </td>
+          <td> An arbitrary string
+          </td>
+          <td> n/a
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-text-keyword"
+              data-dfn-type="attr-value"><code>text</code></dfn>
+          </td>
+          <td> <a href="#text-(type=text)-state-and-search-state-(type=search)"
+              id="the-input-element:text-(type=text)-state-and-search-state-(type=search)-3">Text</a>
+          </td>
+          <td> Text with no line breaks
+          </td>
+          <td> A text control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-search-keyword"
+              data-dfn-type="attr-value"><code>search</code></dfn>
+          </td>
+          <td> <a href="#text-(type=text)-state-and-search-state-(type=search)"
+              id="the-input-element:text-(type=text)-state-and-search-state-(type=search)-4">Search</a>
+          </td>
+          <td> Text with no line breaks
+          </td>
+          <td> Search control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-tel-keyword"
+              data-dfn-type="attr-value"><code>tel</code></dfn>
+          </td>
+          <td> <a href="#telephone-state-(type=tel)" id="the-input-element:telephone-state-(type=tel)-2">Telephone</a>
+          </td>
+          <td> Text with no line breaks
+          </td>
+          <td> A text control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-url-keyword"
+              data-dfn-type="attr-value"><code>url</code></dfn>
+          </td>
+          <td> <a href="#url-state-(type=url)" id="the-input-element:url-state-(type=url)-2">URL</a>
+          </td>
+          <td> An absolute URL
+          </td>
+          <td> A text control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-email-keyword"
+              data-dfn-type="attr-value"><code>email</code></dfn>
+          </td>
+          <td> <a href="#email-state-(type=email)" id="the-input-element:email-state-(type=email)-2">Email</a>
+          </td>
+          <td> An email address or list of email addresses
+          </td>
+          <td> A text control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-password-keyword"
+              data-dfn-type="attr-value"><code>password</code></dfn>
+          </td>
+          <td> <a href="#password-state-(type=password)"
+              id="the-input-element:password-state-(type=password)-2">Password</a>
+          </td>
+          <td> Text with no line breaks (sensitive information)
+          </td>
+          <td> A text control that obscures data entry
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-date-keyword"
+              data-dfn-type="attr-value"><code>date</code></dfn>
+          </td>
+          <td> <a href="#date-state-(type=date)" id="the-input-element:date-state-(type=date)-2">Date</a>
+          </td>
+          <td> A date (year, month, day) with no time zone
+          </td>
+          <td> A date control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-month-keyword"
+              data-dfn-type="attr-value"><code>month</code></dfn>
+          </td>
+          <td> <a href="#month-state-(type=month)" id="the-input-element:month-state-(type=month)-2">Month</a>
+          </td>
+          <td> A date consisting of a year and a month with no time zone
+          </td>
+          <td> A month control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-week-keyword"
+              data-dfn-type="attr-value"><code>week</code></dfn>
+          </td>
+          <td> <a href="#week-state-(type=week)" id="the-input-element:week-state-(type=week)-2">Week</a>
+          </td>
+          <td> A date consisting of a week-year number and a week number with no time zone
+          </td>
+          <td> A week control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-time-keyword"
+              data-dfn-type="attr-value"><code>time</code></dfn>
+          </td>
+          <td> <a href="#time-state-(type=time)" id="the-input-element:time-state-(type=time)-2">Time</a>
+          </td>
+          <td> A time (hour, minute, seconds, fractional seconds) with no time zone
+          </td>
+          <td> A time control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-datetime-local-keyword"
+              data-dfn-type="attr-value"><code>datetime-local</code></dfn>
+          </td>
+          <td> <a href="#local-date-and-time-state-(type=datetime-local)"
+              id="the-input-element:local-date-and-time-state-(type=datetime-local)-2">Local Date and Time</a>
+          </td>
+          <td> A date and time (year, month, day, hour, minute, second, fraction of a second) with no time zone
+          </td>
+          <td> A date and time control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-number-keyword"
+              data-dfn-type="attr-value"><code>number</code></dfn>
+          </td>
+          <td> <a href="#number-state-(type=number)" id="the-input-element:number-state-(type=number)-2">Number</a>
+          </td>
+          <td> A numerical value
+          </td>
+          <td> A text control or spinner control
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-range-keyword"
+              data-dfn-type="attr-value"><code>range</code></dfn>
+          </td>
+          <td> <a href="#range-state-(type=range)" id="the-input-element:range-state-(type=range)-2">Range</a>
+          </td>
+          <td> A numerical value, with the extra semantic that the exact value is not important
+          </td>
+          <td> A slider control or similar
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-color-keyword"
+              data-dfn-type="attr-value"><code>color</code></dfn>
+          </td>
+          <td> <a href="#color-state-(type=color)" id="the-input-element:color-state-(type=color)-2">Color</a>
+          </td>
+          <td> An sRGB color with 8-bit red, green, and blue components
+          </td>
+          <td> A color picker
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-checkbox-keyword"
+              data-dfn-type="attr-value"><code>checkbox</code></dfn>
+          </td>
+          <td> <a href="#checkbox-state-(type=checkbox)"
+              id="the-input-element:checkbox-state-(type=checkbox)-2">Checkbox</a>
+          </td>
+          <td> A set of zero or more values from a predefined list
+          </td>
+          <td> A checkbox
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-radio-keyword"
+              data-dfn-type="attr-value"><code>radio</code></dfn>
+          </td>
+          <td> <a href="#radio-button-state-(type=radio)" id="the-input-element:radio-button-state-(type=radio)-2">Radio
+              Button</a>
+          </td>
+          <td> An enumerated value
+          </td>
+          <td> A radio button
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-file-keyword"
+              data-dfn-type="attr-value"><code>file</code></dfn>
+          </td>
+          <td> <a href="#file-upload-state-(type=file)" id="the-input-element:file-upload-state-(type=file)-3">File
+              Upload</a>
+          </td>
+          <td> Zero or more files each with a <a id="the-input-element:mime-type"
+              href="https://mimesniff.spec.whatwg.org/#mime-type" data-x-internal="mime-type">MIME type</a> and
+            optionally a filename
+          </td>
+          <td> A label and a button
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-submit-keyword"
+              data-dfn-type="attr-value"><code>submit</code></dfn>
+          </td>
+          <td> <a href="#submit-button-state-(type=submit)"
+              id="the-input-element:submit-button-state-(type=submit)-2">Submit Button</a>
+          </td>
+          <td> An enumerated value, with the extra semantic that it must be the last value selected and initiates form
+            submission
+          </td>
+          <td> A button
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-image-keyword"
+              data-dfn-type="attr-value"><code>image</code></dfn>
+          </td>
+          <td> <a href="#image-button-state-(type=image)" id="the-input-element:image-button-state-(type=image)-2">Image
+              Button</a>
+          </td>
+          <td> A coordinate, relative to a particular image's size, with the extra semantic that it must
+            be the last value selected and initiates form submission
+          </td>
+          <td> Either a clickable image, or a button
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-reset-keyword"
+              data-dfn-type="attr-value"><code>reset</code></dfn>
+          </td>
+          <td> <a href="#reset-button-state-(type=reset)" id="the-input-element:reset-button-state-(type=reset)-2">Reset
+              Button</a>
+          </td>
+          <td> n/a
+          </td>
+          <td> A button
+          </td>
+        </tr>
+        <tr>
+          <td> <dfn data-dfn-for="input/type" id="attr-input-type-button-keyword"
+              data-dfn-type="attr-value"><code>button</code></dfn>
+          </td>
+          <td> <a href="#button-state-(type=button)" id="the-input-element:button-state-(type=button)-2">Button</a>
+          </td>
+          <td> n/a
+          </td>
+          <td> A button
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+
+</html>
